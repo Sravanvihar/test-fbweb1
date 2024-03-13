@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     // JDBC connection parameters
-    private static final String JDBC_URL = "jdbc:mysql://192.168.138.114:3306/myDB";
+    private static final String JDBC_URL = "jdbc:mysql://192.168.182.134:3306/myDB";
     private static final String JDBC_USER = "mysql";
     private static final String JDBC_PASSWORD = "mysql";
 
